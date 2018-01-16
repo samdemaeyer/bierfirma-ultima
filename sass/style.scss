@@ -1142,7 +1142,7 @@ pre {
 
 // Footer
 #fh5co-footer {
-	padding: 10em 0;
+	padding: 3em 0 0;
 	background: #323a45;
 	color: #878c93;
 	position: fixed;
@@ -1196,6 +1196,7 @@ pre {
 	}
 	a {
 		color: #9a9fa5;
+    font-size: 25px;
 		&:hover, &:active, &:focus {
 			color: $brand-secondary;
 		}
