@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+.main-wrapper {
+  background: url('../images/main-bg.jpg');
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.center {
+  width: 80%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+@keyframes change-colors {
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.main-logo {
+  width: 250px;
+  animation: change-colors 5s ease-in-out infinite;
+}
+
+.st2{
+  display:none;
+}
+
+.coming-soon {
+  font-family: 'Indie Flower', cursive;
+  font-size: 90px;
+  color: #fff;
+  margin-top: 20px;
+  font-weight: 600;
+  text-shadow: 2px 2px 3px rgb(53, 53, 53);
+}
+
+.coming-soon span {
+  font-size: 60px;
+  letter-spacing: 5px;
+}
+
+@keyframes blink {
+  50% { color: transparent; }
+}
+.loader-dot { animation: 2.2s blink infinite }
+.loader-dot:nth-child(2) { animation-delay: 150ms }
+.loader-dot:nth-child(3) { animation-delay: 300ms }
+
+.social-media-wrapper {
+  margin-top: 50px;
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.social-media-wrapper a {
+  font-size: 50px;
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 2px 2px 3px rgb(53, 53, 53);
+}
+
+.social-media-wrapper a:not(:first-child) {
+  margin-left: 15px;
+}
+
+
+.fa-facebook-square {
+  color: #3b5998;
+}
